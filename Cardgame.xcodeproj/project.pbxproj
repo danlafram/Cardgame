@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1CED08351DE0E16D008CF68F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08341DE0E16D008CF68F /* main.cpp */; };
+		1CED083D1DE0EA4A008CF68F /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED083B1DE0EA4A008CF68F /* Card.cpp */; };
+		1CED08411DE0EB4B008CF68F /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED083F1DE0EB4B008CF68F /* Deck.cpp */; };
+		1CED08441DE0EB8C008CF68F /* DiscardPile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08421DE0EB8C008CF68F /* DiscardPile.cpp */; };
+		1CED08471DE0EBBE008CF68F /* Chain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08451DE0EBBE008CF68F /* Chain.cpp */; };
+		1CED084A1DE0EBEE008CF68F /* Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08481DE0EBEE008CF68F /* Table.cpp */; };
+		1CED084D1DE0EC1D008CF68F /* TradeArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED084B1DE0EC1D008CF68F /* TradeArea.cpp */; };
+		1CED08501DE0EC71008CF68F /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED084E1DE0EC71008CF68F /* Coins.cpp */; };
+		1CED08531DE0ECA5008CF68F /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08511DE0ECA5008CF68F /* Hand.cpp */; };
+		1CED08561DE0ECC9008CF68F /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08541DE0ECC9008CF68F /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,24 @@
 /* Begin PBXFileReference section */
 		1CED08311DE0E16D008CF68F /* Cardgame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cardgame; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CED08341DE0E16D008CF68F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1CED083B1DE0EA4A008CF68F /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		1CED083C1DE0EA4A008CF68F /* Card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		1CED083F1DE0EB4B008CF68F /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		1CED08401DE0EB4B008CF68F /* Deck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
+		1CED08421DE0EB8C008CF68F /* DiscardPile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiscardPile.cpp; sourceTree = "<group>"; };
+		1CED08431DE0EB8C008CF68F /* DiscardPile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DiscardPile.hpp; sourceTree = "<group>"; };
+		1CED08451DE0EBBE008CF68F /* Chain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chain.cpp; sourceTree = "<group>"; };
+		1CED08461DE0EBBE008CF68F /* Chain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Chain.hpp; sourceTree = "<group>"; };
+		1CED08481DE0EBEE008CF68F /* Table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Table.cpp; sourceTree = "<group>"; };
+		1CED08491DE0EBEE008CF68F /* Table.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Table.hpp; sourceTree = "<group>"; };
+		1CED084B1DE0EC1D008CF68F /* TradeArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TradeArea.cpp; sourceTree = "<group>"; };
+		1CED084C1DE0EC1D008CF68F /* TradeArea.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TradeArea.hpp; sourceTree = "<group>"; };
+		1CED084E1DE0EC71008CF68F /* Coins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coins.cpp; sourceTree = "<group>"; };
+		1CED084F1DE0EC71008CF68F /* Coins.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Coins.hpp; sourceTree = "<group>"; };
+		1CED08511DE0ECA5008CF68F /* Hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
+		1CED08521DE0ECA5008CF68F /* Hand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hand.hpp; sourceTree = "<group>"; };
+		1CED08541DE0ECC9008CF68F /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		1CED08551DE0ECC9008CF68F /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				1CED08341DE0E16D008CF68F /* main.cpp */,
+				1CED083B1DE0EA4A008CF68F /* Card.cpp */,
+				1CED083C1DE0EA4A008CF68F /* Card.hpp */,
+				1CED083F1DE0EB4B008CF68F /* Deck.cpp */,
+				1CED08401DE0EB4B008CF68F /* Deck.hpp */,
+				1CED08421DE0EB8C008CF68F /* DiscardPile.cpp */,
+				1CED08431DE0EB8C008CF68F /* DiscardPile.hpp */,
+				1CED08451DE0EBBE008CF68F /* Chain.cpp */,
+				1CED08461DE0EBBE008CF68F /* Chain.hpp */,
+				1CED08481DE0EBEE008CF68F /* Table.cpp */,
+				1CED08491DE0EBEE008CF68F /* Table.hpp */,
+				1CED084B1DE0EC1D008CF68F /* TradeArea.cpp */,
+				1CED084C1DE0EC1D008CF68F /* TradeArea.hpp */,
+				1CED084E1DE0EC71008CF68F /* Coins.cpp */,
+				1CED084F1DE0EC71008CF68F /* Coins.hpp */,
+				1CED08511DE0ECA5008CF68F /* Hand.cpp */,
+				1CED08521DE0ECA5008CF68F /* Hand.hpp */,
+				1CED08541DE0ECC9008CF68F /* Player.cpp */,
+				1CED08551DE0ECC9008CF68F /* Player.hpp */,
 			);
 			path = Cardgame;
 			sourceTree = "<group>";
@@ -119,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CED08531DE0ECA5008CF68F /* Hand.cpp in Sources */,
+				1CED084A1DE0EBEE008CF68F /* Table.cpp in Sources */,
+				1CED08471DE0EBBE008CF68F /* Chain.cpp in Sources */,
+				1CED084D1DE0EC1D008CF68F /* TradeArea.cpp in Sources */,
+				1CED08561DE0ECC9008CF68F /* Player.cpp in Sources */,
+				1CED08441DE0EB8C008CF68F /* DiscardPile.cpp in Sources */,
+				1CED08411DE0EB4B008CF68F /* Deck.cpp in Sources */,
 				1CED08351DE0E16D008CF68F /* main.cpp in Sources */,
+				1CED08501DE0EC71008CF68F /* Coins.cpp in Sources */,
+				1CED083D1DE0EA4A008CF68F /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
