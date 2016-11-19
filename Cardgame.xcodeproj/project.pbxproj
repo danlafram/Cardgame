@@ -17,6 +17,14 @@
 		1CED08501DE0EC71008CF68F /* Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED084E1DE0EC71008CF68F /* Coins.cpp */; };
 		1CED08531DE0ECA5008CF68F /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08511DE0ECA5008CF68F /* Hand.cpp */; };
 		1CED08561DE0ECC9008CF68F /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08541DE0ECC9008CF68F /* Player.cpp */; };
+		1CED085A1DE0F487008CF68F /* Quartz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08581DE0F487008CF68F /* Quartz.cpp */; };
+		1CED085D1DE0F49F008CF68F /* Hematite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED085B1DE0F49F008CF68F /* Hematite.cpp */; };
+		1CED08601DE0F4AE008CF68F /* Obsidian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED085E1DE0F4AE008CF68F /* Obsidian.cpp */; };
+		1CED08631DE0F4C3008CF68F /* Malachite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08611DE0F4C3008CF68F /* Malachite.cpp */; };
+		1CED08661DE0F4D0008CF68F /* Turquoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08641DE0F4D0008CF68F /* Turquoise.cpp */; };
+		1CED086A1DE0F4E2008CF68F /* Ruby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED08681DE0F4E2008CF68F /* Ruby.cpp */; };
+		1CED086D1DE0F4F7008CF68F /* Amethyst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED086B1DE0F4F7008CF68F /* Amethyst.cpp */; };
+		1CED08701DE0F501008CF68F /* Emerald.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CED086E1DE0F501008CF68F /* Emerald.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +60,22 @@
 		1CED08521DE0ECA5008CF68F /* Hand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hand.hpp; sourceTree = "<group>"; };
 		1CED08541DE0ECC9008CF68F /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		1CED08551DE0ECC9008CF68F /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		1CED08581DE0F487008CF68F /* Quartz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quartz.cpp; sourceTree = "<group>"; };
+		1CED08591DE0F487008CF68F /* Quartz.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quartz.hpp; sourceTree = "<group>"; };
+		1CED085B1DE0F49F008CF68F /* Hematite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hematite.cpp; sourceTree = "<group>"; };
+		1CED085C1DE0F49F008CF68F /* Hematite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hematite.hpp; sourceTree = "<group>"; };
+		1CED085E1DE0F4AE008CF68F /* Obsidian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Obsidian.cpp; sourceTree = "<group>"; };
+		1CED085F1DE0F4AE008CF68F /* Obsidian.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Obsidian.hpp; sourceTree = "<group>"; };
+		1CED08611DE0F4C3008CF68F /* Malachite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Malachite.cpp; sourceTree = "<group>"; };
+		1CED08621DE0F4C3008CF68F /* Malachite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Malachite.hpp; sourceTree = "<group>"; };
+		1CED08641DE0F4D0008CF68F /* Turquoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Turquoise.cpp; sourceTree = "<group>"; };
+		1CED08651DE0F4D0008CF68F /* Turquoise.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Turquoise.hpp; sourceTree = "<group>"; };
+		1CED08681DE0F4E2008CF68F /* Ruby.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ruby.cpp; sourceTree = "<group>"; };
+		1CED08691DE0F4E2008CF68F /* Ruby.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ruby.hpp; sourceTree = "<group>"; };
+		1CED086B1DE0F4F7008CF68F /* Amethyst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Amethyst.cpp; sourceTree = "<group>"; };
+		1CED086C1DE0F4F7008CF68F /* Amethyst.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amethyst.hpp; sourceTree = "<group>"; };
+		1CED086E1DE0F501008CF68F /* Emerald.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Emerald.cpp; sourceTree = "<group>"; };
+		1CED086F1DE0F501008CF68F /* Emerald.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Emerald.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +127,32 @@
 				1CED08521DE0ECA5008CF68F /* Hand.hpp */,
 				1CED08541DE0ECC9008CF68F /* Player.cpp */,
 				1CED08551DE0ECC9008CF68F /* Player.hpp */,
+				1CED08571DE0F46F008CF68F /* Gemstones */,
 			);
 			path = Cardgame;
+			sourceTree = "<group>";
+		};
+		1CED08571DE0F46F008CF68F /* Gemstones */ = {
+			isa = PBXGroup;
+			children = (
+				1CED08581DE0F487008CF68F /* Quartz.cpp */,
+				1CED08591DE0F487008CF68F /* Quartz.hpp */,
+				1CED085B1DE0F49F008CF68F /* Hematite.cpp */,
+				1CED085C1DE0F49F008CF68F /* Hematite.hpp */,
+				1CED085E1DE0F4AE008CF68F /* Obsidian.cpp */,
+				1CED085F1DE0F4AE008CF68F /* Obsidian.hpp */,
+				1CED08611DE0F4C3008CF68F /* Malachite.cpp */,
+				1CED08621DE0F4C3008CF68F /* Malachite.hpp */,
+				1CED08641DE0F4D0008CF68F /* Turquoise.cpp */,
+				1CED08651DE0F4D0008CF68F /* Turquoise.hpp */,
+				1CED08681DE0F4E2008CF68F /* Ruby.cpp */,
+				1CED08691DE0F4E2008CF68F /* Ruby.hpp */,
+				1CED086B1DE0F4F7008CF68F /* Amethyst.cpp */,
+				1CED086C1DE0F4F7008CF68F /* Amethyst.hpp */,
+				1CED086E1DE0F501008CF68F /* Emerald.cpp */,
+				1CED086F1DE0F501008CF68F /* Emerald.hpp */,
+			);
+			name = Gemstones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,15 +212,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CED08661DE0F4D0008CF68F /* Turquoise.cpp in Sources */,
 				1CED08531DE0ECA5008CF68F /* Hand.cpp in Sources */,
+				1CED08601DE0F4AE008CF68F /* Obsidian.cpp in Sources */,
 				1CED084A1DE0EBEE008CF68F /* Table.cpp in Sources */,
 				1CED08471DE0EBBE008CF68F /* Chain.cpp in Sources */,
 				1CED084D1DE0EC1D008CF68F /* TradeArea.cpp in Sources */,
 				1CED08561DE0ECC9008CF68F /* Player.cpp in Sources */,
 				1CED08441DE0EB8C008CF68F /* DiscardPile.cpp in Sources */,
 				1CED08411DE0EB4B008CF68F /* Deck.cpp in Sources */,
+				1CED085A1DE0F487008CF68F /* Quartz.cpp in Sources */,
 				1CED08351DE0E16D008CF68F /* main.cpp in Sources */,
+				1CED086A1DE0F4E2008CF68F /* Ruby.cpp in Sources */,
+				1CED086D1DE0F4F7008CF68F /* Amethyst.cpp in Sources */,
+				1CED08631DE0F4C3008CF68F /* Malachite.cpp in Sources */,
+				1CED08701DE0F501008CF68F /* Emerald.cpp in Sources */,
 				1CED08501DE0EC71008CF68F /* Coins.cpp in Sources */,
+				1CED085D1DE0F49F008CF68F /* Hematite.cpp in Sources */,
 				1CED083D1DE0EA4A008CF68F /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

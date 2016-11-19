@@ -14,8 +14,6 @@
 
 #endif /* Table_hpp */
 
-using namespace std;
-
 class Table {
     
     //List of private variables and functions

@@ -1,28 +1,27 @@
 //
-//  Hand.hpp
+//  Malachite.hpp
 //  Cardgame
 //
 //  Created by Daniel Laframboise on 2016-11-19.
 //  Copyright © 2016 Daniel. All rights reserved.
 //
 
-#ifndef Hand_hpp
-#define Hand_hpp
+#ifndef Malachite_hpp
+#define Malachite_hpp
 
 #include <stdio.h>
-#include <iostream>
 
-#endif /* Hand_hpp */
+#endif /* Malachite_hpp */
 
-class Hand {
-    
-    
+#include "Card.hpp"
+
+class Malachite : public Card {
     //List of private variables and functions
     private:
     
     
     //List of public variables and functions
     public:
-    
-    
+    int getCardsPerCoin(int coins);
+    string getName();
 };

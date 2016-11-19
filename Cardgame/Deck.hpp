@@ -12,9 +12,12 @@
 #include <stdio.h>
 #include <iostream>
 
+#include "Card.hpp"
+
 #endif /* Deck_hpp */
 
-using namespace std;
+const int CARDS_PER_DECK = 52; // Number of cards per deck, can change upon configuration of program
+
 
 class Deck {
     
@@ -24,5 +27,9 @@ class Deck {
     
     //List of public variables and functions
     public:
+    Deck();
+    Card dealCards();
+    void shuffle();
+    
     
 };

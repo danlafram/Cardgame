@@ -14,8 +14,6 @@
 
 #endif /* TradeArea_hpp */
 
-using namespace std;
-
 class TradeArea {
     
     //List of private variables and functions

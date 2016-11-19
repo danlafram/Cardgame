@@ -14,8 +14,6 @@
 
 #endif /* Chain_hpp */
 
-using namespace std;
-
 class Chain {
     
     //List of private variables and functions

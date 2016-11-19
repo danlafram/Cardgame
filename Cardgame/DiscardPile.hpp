@@ -14,8 +14,6 @@
 
 #endif /* DiscardPile_hpp */
 
-using namespace std;
-
 class DiscardPile {
     
     //List of private variables and functions

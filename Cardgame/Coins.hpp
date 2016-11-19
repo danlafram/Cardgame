@@ -14,8 +14,6 @@
 
 #endif /* Coins_hpp */
 
-using namespace std;
-
 class Coins {
     
     //List of private variables and functions

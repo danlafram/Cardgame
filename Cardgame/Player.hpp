@@ -12,17 +12,25 @@
 #include <stdio.h>
 #include <iostream>
 
-#endif /* Player_hpp */
+#include "Card.hpp"
+#include "Chain.hpp"
 
-using namespace std;
+#endif /* Player_hpp */
 
 class Player {
     
     //List of private variables and functions
     private:
+    int playerNumber;
+        
     
     
     //List of public variables and functions
     public:
+    Player();
+    void draw();
+    void discard(int position);
+    void playCard(Card toPlay, Chain onChain);
+    
     
 };

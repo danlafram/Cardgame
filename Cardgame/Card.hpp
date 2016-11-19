@@ -11,18 +11,24 @@
 
 #include <stdio.h>
 #include <iostream>
-
-#endif /* Card_hpp */
+#include <string>
 
 using namespace std;
+
+#endif /* Card_hpp */
 
 class Card {
     //List of private variables and functions
     private:
+    string name;
     
     
     //List of public variables and functions
     public:
+    Card();
+    virtual int getCardsPerCoin(int coins);//How many cards necessary to receive corresponding number of coins
+    virtual string getName();//returns full name of card (e.g., Ruby)
+    virtual void print(const ostream& out);
     
     
     
