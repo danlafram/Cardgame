@@ -11,10 +11,14 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <vector>
+
+#include "Card.hpp"
 
 #endif /* DiscardPile_hpp */
 
-class DiscardPile {
+class DiscardPile : private vector<Card> {
+    
     
     //List of private variables and functions
     private:
@@ -22,6 +26,13 @@ class DiscardPile {
     
     //List of public variables and functions
     public:
+    Card* pickUp();
+    Card* top();
+    void print(std::ostream&);
+    
+    DiscardPile(const istream& ); //add CardFactory* as parameter once implemented
+    
+
     
     
 };

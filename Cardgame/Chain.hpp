@@ -11,10 +11,11 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <vector>
 
 #endif /* Chain_hpp */
 
-class Chain {
+class Chain : private std::vector<Card> { //Private due to problems with absence of virtual destructor (StackOverflow)
     
     //List of private variables and functions
     private:
@@ -22,6 +23,8 @@ class Chain {
     
     //List of public variables and functions
     public:
+    Chain(const istream&); //add CardFactory* as parameter once implemented
+    int sell();
     
     
 };

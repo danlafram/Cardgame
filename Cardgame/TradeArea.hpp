@@ -11,10 +11,16 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <list>
+
+#include "Card.hpp"
+
+
 
 #endif /* TradeArea_hpp */
 
-class TradeArea {
+class TradeArea : public std::list<Card> {
+    
     
     //List of private variables and functions
     private:
@@ -22,5 +28,9 @@ class TradeArea {
     
     //List of public variables and functions
     public:
+    bool legal(Card*);
+    Card* trade(string);
+    int numCards();
     
+    TradeArea(const istream&); //Add CardFactory* as parameter once implemented
 };

@@ -11,15 +11,17 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <vector>
 
 #include "Card.hpp"
 
 #endif /* Deck_hpp */
 
-const int CARDS_PER_DECK = 52; // Number of cards per deck, can change upon configuration of program
 
 
-class Deck {
+class Deck : private vector<Card> {
+    
+    
     
     //List of private variables and functions
     private:
@@ -27,9 +29,9 @@ class Deck {
     
     //List of public variables and functions
     public:
-    Deck();
-    Card dealCards();
-    void shuffle();
+    Deck(const istream&); //add CardFactory* as a parameter once CardFactory is implemented
+    Card* draw();
+    
     
     
 };

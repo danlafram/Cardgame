@@ -11,10 +11,13 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <vector>
+
+#include "Card.hpp"
 
 #endif /* Hand_hpp */
 
-class Hand {
+class Hand : private std::vector<Card> {
     
     
     //List of private variables and functions
@@ -23,6 +26,11 @@ class Hand {
     
     //List of public variables and functions
     public:
+    Card* play();
+    Card* top();
+    Card* operator[] (int);
+    
+    Hand(const istream&); //Add CardFactory* as parameter once implemented
     
     
 };

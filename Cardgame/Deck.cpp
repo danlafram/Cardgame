@@ -7,3 +7,13 @@
 //
 
 #include "Deck.hpp"
+
+
+Deck::Deck(const istream&){
+    
+}
+
+
+//Card* Deck::draw(){
+    
+//}

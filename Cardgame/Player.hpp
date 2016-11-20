@@ -19,18 +19,26 @@
 
 class Player {
     
+    
     //List of private variables and functions
     private:
     int playerNumber;
+    int coins;
         
     
     
     //List of public variables and functions
     public:
-    Player();
-    void draw();
-    void discard(int position);
-    void playCard(Card toPlay, Chain onChain);
+    Player(std::string&);
+    std::string getName();
+    int getNumCoins();
+    int getMaxNumChains();
+    int getNumChains();
+    Chain& operator[] (int i);
+    void buyThirdChain();
+    void printHand(std::ostream&, bool);
+    Player(const istream&); //Add CardFactory* as parameter once implemented
+    
     
     
 };
